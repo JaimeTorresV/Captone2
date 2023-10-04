@@ -1,0 +1,469 @@
+
+h1 {
+    font-size: 24px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+}
+
+/*=======================Menu=======================*/
+#menu a{
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #FFF;
+    
+}
+
+/*=======================Footer=======================*/
+
+/* Modificar el estilo para la imagen */
+#image {
+    max-width: 20%; /* Ancho máximo del 20% del contenedor */
+    height: auto;
+    position: absolute;
+    left: 70%;
+    top: 35%;
+}
+
+/* Modificar los estilos para los textos y el botón */
+#Text1 {
+    /* Estilos anteriores... */
+    
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    position: absolute;
+    left: 10%; /* Ajustar la posición horizontal */
+    top: 350px;
+    max-width: 30%;
+}
+
+#Text2 {
+    /* Estilos anteriores... */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2; /* Reducir la altura de línea para comprimir el texto */
+    position: absolute;
+    left: 10%;
+    top: 532px;
+    max-width: 30%; /* Establecer un ancho máximo para el cuadro */
+}
+
+
+#Boton1 {
+    /* Estilos anteriores... */
+    font-size: 16px;
+    position: absolute;
+    left: 30%; /* Ajustar la posición horizontal */
+    top: 65%;
+    width: auto;
+    padding: 16px 51.056px 16px 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+
+/* Segunda Parte */
+
+#text3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 2.2vw; /* Utilizando unidades vw para un tamaño de fuente responsive */
+    font-weight: 600;
+    line-height: 1.5;
+    position: absolute;
+    left: 12%;
+    top: 120%;
+}
+
+
+.text-area {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 1.5vw; /* Utilizando unidades vw para un tamaño de fuente responsive */
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+.text-description {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 1vw; /* Utilizando unidades vw para un tamaño de fuente responsive */
+    font-weight: 100;
+    line-height: 1.5;
+    width: 80%;
+    margin-top: 2%;
+}
+
+/* Estilos específicos para cada sección */
+
+#text4_1 {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    max-width: 30%;
+}
+
+#text4_2 {
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    max-width: 15%;
+}
+
+#text5_1 {
+    position: absolute;
+    left: 75%;
+    top: 100%;
+    max-width: 30%;
+}
+
+#text5_2 {
+    position: absolute;
+    left: 75%;
+    top: 105%;
+    max-width: 15%;
+}
+
+#text6_1 {
+    position: absolute;
+    left: 75%;
+    top: 130%;
+    max-width: 30%;
+}
+
+#text6_2 {
+    position: absolute;
+    left: 75%;
+    top: 135%;
+    max-width: 15%;
+}
+
+#text7_1 {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    max-width: 30%;
+}
+
+
+#text7_2 {
+    position: absolute;
+    left: 50%;
+    top: 135%;
+    max-width: 30%;
+}
+
+
+
+/* Tercera Parte */
+
+/* Estilo personalizado para el carrusel */
+#carouselExampleRide {
+    margin: 20px 0; /* Espacio en los márgenes superior e inferior */
+    
+}
+
+/* Estilo para las imágenes en el carrusel */
+.carousel-inner img {
+    max-width: 100%; /* Ancho máximo del 100% para las imágenes */
+    height: auto; /* Mantener la proporción de aspecto */
+    
+}
+/* Estilo para el carrusel */
+#carouselExampleRide {
+    margin-top: 75%; /* Agregar margen superior de 20px (ajusta según sea necesario) */
+}
+
+
+/* Estilo para los botones de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para los botones */
+    width: 40px; /* Ancho de los botones */
+    height: 40px; /* Altura de los botones */
+    border-radius: 50%; /* Borde redondeado para crear un círculo */
+    font-size: 30px; /* Tamaño de fuente de los íconos de los botones */
+    color: white; /* Color del ícono de los botones */
+    position: absolute; /* Posición absoluta para alinear los botones */
+    top: 55%; /* Alinear verticalmente al centro */
+    transform: translateY(-50%); /* Alinear verticalmente al centro */
+}
+
+/* Estilo para el botón de control previo */
+.carousel-control-prev {
+    left: 10px; /* Posición a la izquierda */
+}
+
+/* Estilo para el botón de control siguiente */
+.carousel-control-next {
+    right: 10px; /* Posición a la derecha */
+}
+
+/* Cuarta Parte */
+
+.rectangulo3 {
+    background: var(--Grey, #4089CC);
+    
+     position: relative;
+    
+    top: 756px;
+    width: 1903px;
+    height: 699px;
+    flex-shrink: 0;
+    }
+
+#text8{  
+    color: #FFF;
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    
+    position: absolute;
+    left: 1100px;        
+    top: 2100px;    
+    }
+
+#text8_1{  
+    color: #FFF;
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    
+    position: absolute;
+    left: 1100px;        
+    top: 2200px;    
+    }
+
+#text9{  
+    color: #FFF;
+     /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+        
+    position: absolute;
+    left: 230px;        
+    top: 2200px;    
+    }
+
+#image2{
+   
+    position: absolute;
+    left: 230px;        
+    top: 2492px; 
+
+
+}
+
+
+/* Quinta Parte */
+
+#menu2 {
+    width: 1903px;
+    color: #000000;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 2590px;
+}
+
+
+/*=======================Servicios=============================*/
+
+/* Estilos para el título */
+#text10 {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    width: 90%;
+    max-width: 630px;
+}
+
+/* Estilos para los íconos */
+.icon {
+    max-width: 100%;
+    height: auto;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+}
+
+/* Estilos para los textos de servicios */
+.text-service {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 60%;
+    width: 90%;
+    max-width: 320px;
+}
+
+/* Estilos para los botones de servicios */
+.btn-service {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Posicionamiento de los elementos */
+#icon1, #text11, #boton2 {
+    
+    left: 10%;
+    top: 20%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+#icon2, #text12, #boton3 {
+    left: 40%;
+    top: 20%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+#icon3, #text13, #boton4 {
+    left: 70%;
+    top: 20%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+#icon4, #text14, #boton5 {
+    left: 10%;
+    top: 50%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+#icon5, #text15, #boton6 {
+    left: 40%;
+    top: 50%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+#icon6, #text16, #boton7 {
+    left: 70%;
+    top: 50%; /* Ajusta esta propiedad para mover los elementos hacia abajo */
+}
+
+
+
+#menu3 {
+    width: 1903px;
+    color: #000000;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 1600px;
+}
+
+/*=======================Proyectos========================================================*/
+
+/* Estilos para los contenedores */
+.contenedor {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.imagen {
+    flex: 1;
+}
+
+/* Estilos para el texto */
+.texto {
+    flex: 2;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#menu4 {
+    width: 1903px;
+    color: #000000;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 1350px;
+}
+
+/*=======================Equipo========================================================*/
+
+/* Estilos para la página de equipo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para los miembros */
+.miembros {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.miembro {
+    flex-basis: calc(33.33% - 20px); /* 33.33% para mostrar 3 miembros por fila */
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Evita que el margen cause desbordamiento */
+}
+
+.miembro.vacio {
+    flex-basis: calc(33.33% - 20px); /* 33.33% para mostrar 3 miembros por fila */
+    margin: 0 10px;
+}
+
+/* Menu inferior */
+
+#menu5 { 
+        width: 1903px;
+        color: #000000;
+        position: absolute;
+        font-size: 18px;
+        font-weight: bold;
+        top: 900px; 
+}
